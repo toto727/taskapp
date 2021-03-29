@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,7 +14,7 @@
 		DCAB93FC2611FFAE00410F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAB93FA2611FFAE00410F65 /* Main.storyboard */; };
 		DCAB93FE2611FFAF00410F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAB93FD2611FFAF00410F65 /* Assets.xcassets */; };
 		DCAB94012611FFAF00410F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAB93FF2611FFAF00410F65 /* LaunchScreen.storyboard */; };
-		DCAB940B2611FFF300410F65 /* ImputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB940A2611FFF300410F65 /* ImputViewController.swift */; };
+		DCAB940B2611FFF300410F65 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB940A2611FFF300410F65 /* InputViewController.swift */; };
 		DCAB940E2612000900410F65 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB940D2612000900410F65 /* Task.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +30,7 @@
 		DCAB93FD2611FFAF00410F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCAB94002611FFAF00410F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCAB94022611FFAF00410F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCAB940A2611FFF300410F65 /* ImputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImputViewController.swift; sourceTree = "<group>"; };
+		DCAB940A2611FFF300410F65 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		DCAB940D2612000900410F65 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +60,6 @@
 				516141B9DEC76ECED6B9FCA1 /* Pods-taskapp.debug.xcconfig */,
 				AFBCC24DC121CEAFB4AC41B0 /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,7 +87,7 @@
 				DCAB93F42611FFAE00410F65 /* AppDelegate.swift */,
 				DCAB93F62611FFAE00410F65 /* SceneDelegate.swift */,
 				DCAB93F82611FFAE00410F65 /* ViewController.swift */,
-				DCAB940A2611FFF300410F65 /* ImputViewController.swift */,
+				DCAB940A2611FFF300410F65 /* InputViewController.swift */,
 				DCAB940D2612000900410F65 /* Task.swift */,
 				DCAB93FA2611FFAE00410F65 /* Main.storyboard */,
 				DCAB93FD2611FFAF00410F65 /* Assets.xcassets */,
@@ -215,7 +214,7 @@
 				DCAB93F92611FFAE00410F65 /* ViewController.swift in Sources */,
 				DCAB93F52611FFAE00410F65 /* AppDelegate.swift in Sources */,
 				DCAB940E2612000900410F65 /* Task.swift in Sources */,
-				DCAB940B2611FFF300410F65 /* ImputViewController.swift in Sources */,
+				DCAB940B2611FFF300410F65 /* InputViewController.swift in Sources */,
 				DCAB93F72611FFAE00410F65 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
